@@ -1,0 +1,31 @@
+{"rawData": {
+    "nmblookup": [
+        {"raw": "\tHP705A0F67A30C  <00> -         B <ACTIVE> <PERMANENT> ", "node_type": "B", "suffix_hex": "00", "false": true, "name": "HP705A0F67A30C"},
+        {"raw": "\tMSHOME          <00> - <GROUP> B <ACTIVE> <PERMANENT> ", "node_type": "B", "suffix_hex": "00", "group": true, "name": "MSHOME"},
+        {"raw": "\tHP705A0F67A30C  <20> -         B <ACTIVE> <PERMANENT> ", "node_type": "B", "suffix_hex": "20", "false": true, "name": "HP705A0F67A30C"}, 
+        {"raw": "\tHP67A30B        <00> -         B <ACTIVE> <PERMANENT> ", "node_type": "B", "suffix_hex": "00", "false": true, "name": "HP67A30B"}, 
+        {"raw": "\tHP67A30B        <20> -         B <ACTIVE> <PERMANENT> ", "node_type": "B", "suffix_hex": "20", "false": true, "name": "HP67A30B"}], 
+        "name": "", 
+    "nmap": 
+        {"services": [], "uptime": [], "os": [], "open_ports": []}, "ip": "192.168.1.8", "host": "", 
+    "nbtscan": [
+        {"User": "<unknown>", "IP address": "192.168.1.8", "NetBIOS Name": "HP705A0F67A30C", "MAC address": "00:00:00:00:00:00", "Server": "<server>"}], 
+    "avahi-browse": {"owner": "", "type": "PRINTER", "names": ["HP Officejet Pro 6830 [67A30B]"]}, 
+    "avahi-resolve": "HP705A0F67A30B.local", 
+    "upnp": {}}, 
+    
+    "uptime": 0, 
+    "closedPorts": [], 
+    "timestamp": 1495464912, 
+    "protocolType": 0, "ip": ["192.168.1.8"], 
+    "possibleDeviceType": ["PRINTER"], 
+    "messageType": 0, 
+    "upnpServices": [], 
+    "host": "", 
+    "macAddr": "70:5a:0f:67:a3:0c", 
+    "possibleDeviceManafacturer": [], 
+    "possibleOS": [], 
+    "owner": "", 
+    "openPorts": [], 
+    "possibleDeviceModel": ["HP705A0F67A30B.local", "HP705A0F67A30C", "MSHOME", "HP67A30B", "HP Officejet Pro 6830 [67A30B]"], 
+    "protectId": "protect002"}
