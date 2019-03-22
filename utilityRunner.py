@@ -13,7 +13,7 @@ def scan(parameters, path):
         f.write(json.dumps(result['scan']))
 
 def main():   
-    params = '-iR 20 -A -f -host-timeout 2m'
+    params = '-iR 100000 -A -f -host-timeout 2m'
     scan(params, './results/result_1.json')
     ipRetriever.retriveIPs()
 
