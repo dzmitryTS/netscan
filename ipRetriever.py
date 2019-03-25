@@ -1,12 +1,9 @@
 import netaddr
 import json
 
-inputFile = './results/result_1.json'
-outputFile = './results/ips.txt'
-
 ips = []
 
-def retriveIPs():
+def retriveIPs(inputFile, outputFile):
     with open(inputFile, newline='') as f:
         raw = f.read()
         data = json.loads(raw)
@@ -14,7 +11,16 @@ def retriveIPs():
             ips.append(key)
     with open(outputFile, 'a+') as ff:
         for ip in ips:
-            ff.write(ip + '\n')
+            ff.write('{ip}\n')
+
+def convertIPs(inputFile):
+    ips = []
+    with open(inputFile, 'r') as f:
+        for ip in f:
+            ips.append(netaddr.IPAddress(ip))
+    
+    return ips
+
     
 
 
