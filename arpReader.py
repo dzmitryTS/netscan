@@ -4,10 +4,11 @@ import json
 def resolveIPbyMAC(mac):
     hosts = json.dumps(get_arp_table())
     for host in hosts:
-        print(host)
+        if host['HW address'] == mac:
+            return host['IP address']
 
 def testARP():
     hosts = get_arp_table()
-    print(hosts[0])
+    print(hosts[0]['HW address'])
 
 testARP()
