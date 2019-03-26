@@ -1,5 +1,7 @@
 from python_arptable import get_arp_table
+import json
 
 def resolveIPbyMAC(mac):
-    arp = get_arp_table()
-    print(arp)
+    hosts = json.loads(get_arp_table())
+    for host in hosts:
+        print(host)
