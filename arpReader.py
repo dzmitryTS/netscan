@@ -8,7 +8,6 @@ def resolveIPbyMAC(mac):
 
 def testARP():
     hosts = json.dumps(get_arp_table())
-    for host in hosts:
-        print(host)
+    print(hosts)
 
 testARP()
