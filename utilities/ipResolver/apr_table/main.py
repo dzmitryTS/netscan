@@ -9,7 +9,7 @@ def main(mac):
 
 
 def resolveIPbyMAC(mac):
-    hosts = json.dumps(get_arp_table())
+    hosts = get_arp_table()
     for host in hosts:
         if host['HW address'] == mac:
             return host['IP address']
