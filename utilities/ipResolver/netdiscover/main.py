@@ -2,10 +2,10 @@ import plac
 import subprocess
 
 def main(mac, mask):
-    print('ok')
+    resolveIP(mac, mask)
 
 def resolveIP(mac, mask):
-    s = subprocess.check_output(['netdiscover', mask, '-P'])
+    s = subprocess.check_output(['netdiscover', '-r', mask, '-P'])
     print(s)
 
 if __name__ == "__main__":
