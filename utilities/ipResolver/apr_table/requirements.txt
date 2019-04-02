@@ -1,0 +1,2 @@
+plac==1.0.0
+python-arptable==0.0.2
